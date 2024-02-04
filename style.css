@@ -1,0 +1,53 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Decoration Header of the Website */
+
+.navbar{
+    display: flex;
+    /* to check navigation bar area */
+    background-color: yellow;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+
+ul{
+    list-style: none;
+}
+
+.nav_list{   
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    margin-right: 60px;
+}
+
+.navbar_Logo{
+    background-color: blue;
+}
+
+.navlistTags{
+    color: #02152d;
+}
+
+.button{
+    border: 0;
+    background-color: #FC6736;
+    color: white;
+    border-radius: 100px;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 0 1.125rem 1.125rem -1rem #de5a2d;
+}
+
+.button:hover{
+    background-color: #f27147;
+}
+/* ------------------------------------------------------------------------------------------------ */
