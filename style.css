@@ -51,3 +51,35 @@ li{
     background-color: #f27147;
 }
 /* ------------------------------------------------------------------------------------------------ */
+
+/* Styling Call to Action Section */
+.call_to_action{
+    display: flex;
+    background-color: #FC6736;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: larger;
+}
+
+.inverse_button{
+    border: 0;
+    background-color: white;
+    color: #FC6736;
+    border-radius: 100px;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 0 1.125rem 1.125rem -1rem #de5a2d;
+    margin-left: 700px;
+    margin-right: 50px;
+}
+
+.even_columns{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
